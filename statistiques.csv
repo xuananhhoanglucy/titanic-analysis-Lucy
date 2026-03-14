@@ -1,0 +1,149 @@
+=== Statistiques descriptives ===
+,"Survécu (1 = oui, 0 = non)","Classe (1re, 2e, 3e)",Sexe,Âge,Nombre de frères/sœurs ou conjoint(s) à bord,Nombre de parents ou enfants à bord,Tarif payé pour le billet,"Port d'embarquement (C = Cherbourg, etc.)",Classe (équivalent textuel de pclass),"Catégorie (homme, femme, enfant)",Adulte masculin (booléen),Pont de cabine (lettre),Ville d'embarquement,Statut de survie (vivant / décédé),Était seul à bord (booléen)
+count,891.0,891.0,891,714.0,891.0,891.0,891.0,889,891,891,891,203,889,891,891
+unique,,,2,,,,,3,3,3,2,7,3,2,2
+top,,,male,,,,,S,Third,man,True,C,Southampton,no,True
+freq,,,577,,,,,644,491,537,537,59,644,549,537
+mean,0.3838383838383838,2.308641975308642,,29.69911764705882,0.5230078563411896,0.38159371492704824,32.204207968574636,,,,,,,,
+std,0.4865924542648585,0.8360712409770513,,14.526497332334044,1.1027434322934275,0.8060572211299559,49.693428597180905,,,,,,,,
+min,0.0,1.0,,0.42,0.0,0.0,0.0,,,,,,,,
+25%,0.0,2.0,,20.125,0.0,0.0,7.9104,,,,,,,,
+50%,0.0,3.0,,28.0,0.0,0.0,14.4542,,,,,,,,
+75%,1.0,3.0,,38.0,1.0,0.0,31.0,,,,,,,,
+max,1.0,3.0,,80.0,8.0,6.0,512.3292,,,,,,,,
+
+
+=== Moyenne Survécu (1 = oui, 0 = non) ===
+0.3838383838383838
+
+
+=== Mode Survécu (1 = oui, 0 = non) ===
+0
+
+
+=== Max Survécu (1 = oui, 0 = non) ===
+1
+
+
+=== Min Survécu (1 = oui, 0 = non) ===
+0
+
+
+=== Moyenne Classe (1re, 2e, 3e) ===
+2.308641975308642
+
+
+=== Mode Classe (1re, 2e, 3e) ===
+3
+
+
+=== Max Classe (1re, 2e, 3e) ===
+3
+
+
+=== Min Classe (1re, 2e, 3e) ===
+1
+
+
+=== Moyenne Âge ===
+29.69911764705882
+
+
+=== Mode Âge ===
+24.0
+
+
+=== Max Âge ===
+80.0
+
+
+=== Min Âge ===
+0.42
+
+
+=== Moyenne Nombre de frères/sœurs ou conjoint(s) à bord ===
+0.5230078563411896
+
+
+=== Mode Nombre de frères/sœurs ou conjoint(s) à bord ===
+0
+
+
+=== Max Nombre de frères/sœurs ou conjoint(s) à bord ===
+8
+
+
+=== Min Nombre de frères/sœurs ou conjoint(s) à bord ===
+0
+
+
+=== Moyenne Nombre de parents ou enfants à bord ===
+0.38159371492704824
+
+
+=== Mode Nombre de parents ou enfants à bord ===
+0
+
+
+=== Max Nombre de parents ou enfants à bord ===
+6
+
+
+=== Min Nombre de parents ou enfants à bord ===
+0
+
+
+=== Moyenne Tarif payé pour le billet ===
+32.204207968574636
+
+
+=== Mode Tarif payé pour le billet ===
+8.05
+
+
+=== Max Tarif payé pour le billet ===
+512.3292
+
+
+=== Min Tarif payé pour le billet ===
+0.0
+
+
+=== Nombre par sexe ===
+Sexe,count
+male,577
+female,314
+
+
+=== Taux de mortalité par sexe ===
+Sexe,"Survécu (1 = oui, 0 = non)"
+female,0.2579617834394905
+male,0.8110918544194108
+
+
+=== Taux de survie par classe et sexe ===
+"Classe (1re, 2e, 3e)",Sexe,"Survécu (1 = oui, 0 = non)"
+1,female,0.9680851063829787
+1,male,0.36885245901639346
+2,female,0.9210526315789473
+2,male,0.1574074074074074
+3,female,0.5
+3,male,0.13544668587896252
+
+
+=== Nombre adultes ===
+601
+
+
+=== Nombre enfants ===
+113
+
+
+=== Taux mortalité adultes ===
+0.6189683860232945
+
+
+=== Taux mortalité enfants ===
+0.4601769911504425
+
+
