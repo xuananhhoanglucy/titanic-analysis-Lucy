@@ -23,12 +23,12 @@ This project provides an end-to-end data analysis of the Titanic passenger manif
 - [Processed Dataset](TITANIC_2025-05-10_14-22.csv)
 
 ### 2. Notebook
-- [Main analysis Notebook](TITANIC.ipynb)
-- [Modular functions](fonctions.py)
+- [Main Analysis Notebook](TITANIC.ipynb)
+- [Modular Functions](fonctions.py)
 
 ### 3. Exports
-- [Visualization: Linear regression plot](regression.png)
-- [Descriptive statistics export](statistiques.csv)
+- [Visualization: Linear Regression Plot](regression.png)
+- [Descriptive Statistics Export](statistiques.csv)
 
 ## Sample Visualization
 ![Visualization Regression](regression.png)
