@@ -18,20 +18,22 @@ This project provides an end-to-end data analysis of the Titanic passenger manif
 - Geographic Trends: The visualization of survival by embark town reveals that passengers embarking from Cherbourg had different survival distributions compared to those from Southampton or Queenstown.
 
 ## Project Structure:
-- Project summary and executive insight
-- [SQL file](Xuan%20Anh%20Hoang%20ecommerce%20sql.sql): Contains the queries used to calculate key metrics and reasons behind the delay status in some orders.
-- [Power BI Dashboard file](Xuan%20Anh%20Hoang%20ecommerce%20pbi.pdf): Contains visualiztion for key metrics with detailed data. 
-- [Operations Performance Report](Xuan%20Anh%20Hoang%20eCommerce%20Operations%20Performance%20Report.pdf): Contains analysis and proposed actions.
+### 1. Dataset
+- [Raw Dataset](41_Titanic2.csv)
+- [Processed Dataset](TITANIC_2025-05-10_14-22.csv)
+
+### 2. Notebook
+- [Main analysis Notebook](TITANIC.ipynb)
+- [Modular functions](fonctions.py)
+
+### 3. Exports
+- [Visualization: Linear regression plot](regression.png)
+- [Descriptive statistics export](statistiques.csv)
 
 ## Sample Visualization
-![Operations Dashboard Preview](eCommerce%20Dashboard%20preview.png)
-1. Operational Efficiency
-- **Logistics Bottleneck:** Identified a **48% Delay Delivery Rate**, with Warehouse 1 being the primary contributor (63.64% delay rate).
-- **Staff Performance:** Isolated fulfillment outliers; while the average time is **180.40 minutes**, specific staff members (ID 202) exceeded this by 11%.
+![Visualization Regression](regression.png)
 
-### 2. Quality & Risk Management
-- **Product Vulnerability:** Pinpointed **SKU02** as a high-risk item with a **6.67% damage rate**, necessitating a review of packaging standards.
-- **Financial Leakage:** Analyzed a **30% Return Ratio**, discovering that nearly all returns are due to internal process errors (Damaged/Wrong Item) rather than customer change-of-mind.
-
+Linear Regression Analysis: Age vs. Fare
+- This visualization explores the correlation between passenger age and the fare paid. The red regression line and the calculated R-value provide a statistical measure of the relationship strength, helping to identify spending patterns across different age demographics.
 
 
